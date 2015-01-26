@@ -8,12 +8,12 @@ http://star.mit.edu/cluster/
 ## Install
 
 ```bash
-$ docker run -it fgibson/starcluster
+$ docker run -it fgibson/docker-starcluster
 ```
 
 StarCluster workspace will be set at /.starcluster. You will probably want to make that a persistent volume:
 
 ```bash
-$ docker run -it -v /var/volumes/starcluster:/.starcluster fgibson/starcluster
+$ docker run -it -v /var/volumes/starcluster:/.starcluster fgibson/docker-starcluster
 ```
 
